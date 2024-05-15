@@ -1,0 +1,59 @@
+﻿/* styles.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+form {
+    width: 300px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+    input[type="text"]:focus,
+    select:focus {
+        border-color: #4CAF50;
+    }
+
+button {
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease-in-out;
+    font-size: 16px;
+}
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+/* Add more styles for specific elements as needed */
